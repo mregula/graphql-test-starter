@@ -20,6 +20,6 @@ Product.hasMany(Content);
 
 export default Conn;
 
-/*Conn.sync({force: true}).then(() => {
+Conn.sync({force: true}).then(() => {
   console.log("TABLES INSTALLED");
-});*/
+});
