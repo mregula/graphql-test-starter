@@ -1,0 +1,12 @@
+{
+  "presets": [
+    ["env", {
+      "targets": {
+        "node": "current"
+      }
+    }]
+  ],
+  "plugins": [
+    "transform-object-rest-spread" //(https://stackoverflow.com/questions/49301610/babel-node-doesnt-transform-spread-operator-on-preset-env?rq=1)
+  ]
+}
