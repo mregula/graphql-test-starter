@@ -52,7 +52,6 @@ const RootMutation = new GraphQLObjectType({
           }
         },
         resolve(parentValue, args) {
-          console.log(parentValue, args);
           return Db.models.content.create({...args});
         }
       }
